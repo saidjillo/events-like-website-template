@@ -1,0 +1,129 @@
+.header {
+    background-color: $color-grey-light-1;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    height:7rem;
+
+}
+.form {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__input {
+        
+        padding: .7rem 2rem;
+        width:50%;
+        //margin-right: -3.25rem;
+        background-color: $color-grey-light-2;
+        border:none;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        height:3.5rem;
+        transition: all .2s;
+     
+
+        &:focus {   
+          width:80%;
+          background-color:$color-grey-dark;
+
+        }
+
+        &--icon {
+           height:2rem;
+           width:2rem;
+           fill:red;
+           z-index:55555;   
+        } 
+    }
+
+    &__btn {  
+        border: none;
+        width:20%;        
+        outline: none;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        background-color: $color-grey-light-2;
+        height:3.5rem; 
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
+
+.user-nav {  
+    align-self: stretch;
+      
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    & > * {
+
+        height:100%;
+        padding: 0 2rem;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all .2s;
+    }
+    
+    & > *:hover {
+        background-color: $color-grey-light-2;
+    }
+
+    &__icon-box {
+    
+       position: relative;
+    }
+
+    &__icon {
+        height:2rem;   
+        width:2rem;
+        fill:$color-grey-dark-3;  
+        
+    }
+
+    &__notification {
+       font-size: 1rem;
+       height:1.75rem;
+       width:1.75rem;
+       border-radius: 50%;
+       background-color: $color-primary-dark;
+       color: #fff;
+       position: absolute;
+       top:1.5rem;
+       right:.8rem;        
+       font-weight: 700;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }   
+
+    &__user {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--photo {
+          height:3.25rem;
+          width:3.25rem;    
+          margin-right: 1rem;  
+          border-radius: 50%;
+        }
+
+        &--name {
+          color: #444;
+          font-size: 1.6rem;
+          font-weight: 700;
+        }
+    }
+
+    
+}

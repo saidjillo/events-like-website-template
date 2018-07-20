@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang=eng>
+    <head>
+        <meta charset = 'UTF-8'>
+        <meta name = 'viewport' content = 'width= device-width, initial-scale = 1.0'>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Brighter events  &mdash; create events and send invitation to your friends</title>
+    </head>
+    <body>
+        <div class="row">
+
+            <div class="col-1-of-4">
+                <nav class="sidebar">
+                    <div class="logo-box">
+                        <img src="img/logo-br.png" alt="logo" class="logo-box__photo">
+                        <h1 class="logo-box__title">Bright events</h1>
+                    </div>
+                    <div class="quick-search-box">
+                        <ul class="quick-search-box__lists">
+                                <li class="quick-search-box__lists--item">
+                                    <label for="category">Category</label>
+                                    <input type="checkbox" id="category" name="category" class="quick-search-box__lists--categ">   
+                                <ul class="category-items">
+                                    <li class="category-items__item">Community and culture</li>
+                                    <li class="category-items__item">Government and politics</li>
+                                    <li class="category-items__item">Health and welliness</li>
+                                    <li class="category-items__item">Music</li>
+                                    <li class="category-items__item">Performing and visual arts</li>
+                                    <li class="category-items__item">Film ,media and Entertainment</li>
+                                    <li class="category-items__item">Science and Technology</li>
+                                    <li class="category-items__item">Seasonal and Holiday</li>
+                                    <li class="category-items__item">Sports and fitness</li>
+                                    <li class="category-items__item">Travel and Outdoor</li>
+                                    <li class="category-items__item">Business and professional</li>
+                                    <li class="category-items__item">Food and drinks</li>
+                                    <li class="category-items__item">Religion</li>
+                                    <li class="category-items__item">other</li>
+                                </ul>
+                            </li>
+                            <li class="quick-search-box__lists--item">Location</li>
+                            <li class="quick-search-box__lists--item">Recent events</li>
+                            <li class="quick-search-box__lists--item">View all</li>
+                            <li class="quick-search-box__lists--item">Create</li>
+                        </ul>
+                    </div>
+
+                    <div class="reviews">
+                        <h3 class="reviews__header">See what others say</h3>
+                        <div class="reviews__paragraph">
+                            <blockquote class="reviews__paragraph--text">
+                                Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus,
+                                inventore iure aliquid aliquam.
+                            </blockquote>
+                        </div>
+                        <div class="owner-box">
+                            <img src="img/user.jpg" alt="owner 1" class="owner-box__user">
+                            <div class="owner-box__details">
+                               <p class="owner-box__details--name">Mary Adhiambo</p>
+                               <p class="owner-box__details--date">april 17, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p class="copyright__text">
+                            &copy;  All rights reserved.
+                             By Bright events, 2018
+                        </p>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-3-of-4">
+                <header class="header">
+                     <form action="#" class="form">
+                         <input type="text" class="form__input" placeholder="search events">
+                         <button class="form__btn">
+                             <svg class="form__input--icon">
+                                 <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                             </svg>
+                         </button>
+                     </form>  
+                     <nav class="user-nav">
+                         <div class="user-nav__icon-box">
+                             <svg class="user-nav__icon">
+                                 <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                             </svg>
+                             <span class="user-nav__notification">5</span>
+                         </div>
+                         <div class="user-nav__icon-box">
+                                <svg class="user-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-chat"></use>
+                                </svg>
+                                <span class="user-nav__notification">5</span>
+                        </div>
+                         <div class="user-nav__user">
+                             <img src="img/user.jpg" alt=" user photo" class="user-nav__user--photo">
+                             <span class="user-nav__user--name">saidjillo</span>
+                         </div>
+                     </nav>     
+                </header>               
+                <section class="gallery">
+                    <div class="gallery__item">
+                        
+                        <svg class="gallery__item--help-icon">
+                            <use xlink:href="img/sprite.svg#icon-help-with-circle"></use>
+                        </svg>
+                        <h3 class="help">You can search events by category</h3>
+                    </div> 
+                    <form action="#" class="search-category"> 
+                        <select class="search-category__items">
+                           <option value="" class="search-category__items--option">Nairobi</option>
+                           <option value="" class="search-category__items--option">Kilifi</option>
+                           <option value="" class="search-category__items--option">Meru</option>
+                           <option value="" class="search-category__items--option">Kisumu</option>
+                           <option value="" class="search-category__items--option">Vihigo</option>
+                        </select>
+                        <div class="search-category__newer">
+                            <input type="checkbox" class="search-category__newer--checkbox" id="newer-events">
+                            <div class="toggle-btn"></div>
+                            <label for="newer-events" class="search-category__newer--toggle-checkbox">Only events that are one month old</label>
+                        </div>
+                    </form>
+                </section>
+                <main class="main">
+                    <div class="events">
+                        <h2 class="events__header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                         <div class="events__box">
+                             <img src="img/event-1.jpeg" alt="photo 1" class="events__box--photo">
+                             <div class="events__box--paragraph">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In arcu cursus euismod quis viverra. Elit sed vulputate mi sit amet mauris commodo quis imperdiet. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Blandit turpis cursus in hac habitasse platea dictumst quisque. Cras semper auctor neque vitae tempus quam pellentesque nec nam. Pellentesque habitant morbi tristique senectus et. Ac tortor dignissim convallis aenean et. 
+                                    Est ante in nibh mauris cursus mattis molestie a iaculis. Imperdiet massa tincidunt nunc pulvinar sapien et.</p>
+                             </div> 
+                         </div>
+                         <div class="user-box">
+                             <img src="img/user.jpg" alt="user 1" class="user-box__user">
+                             <div class="user-box__user--details">
+                                 <p class="user-box__user--name">Mary J Blige</p>
+                                 <p class="user-box__user--date">april 12, 2018</p>
+                             </div>
+                             <a href="event.html" class="btn-next">View event &rarr;</a>
+                         </div>  
+                    </div>
+
+                    <div class="events">
+                            <h2 class="events__header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                             <div class="events__box">
+                                 <img src="img/event-1.jpeg" alt="photo 1" class="events__box--photo">
+                                 <div class="events__box--paragraph">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In arcu cursus euismod quis viverra. Elit sed vulputate mi sit amet mauris commodo quis imperdiet. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Blandit turpis cursus in hac habitasse platea dictumst quisque. Cras semper auctor neque vitae tempus quam pellentesque nec nam. Pellentesque habitant morbi tristique senectus et. Ac tortor dignissim convallis aenean et. 
+                                        Est ante in nibh mauris cursus mattis molestie a iaculis. Imperdiet massa tincidunt nunc pulvinar sapien et.</p>
+                                 </div> 
+                             </div>
+                             <div class="user-box">
+                                 <img src="img/user.jpg" alt="user 1" class="user-box__user">
+                                 <div class="user-box__user--details">
+                                     <p class="user-box__user--name">Mary J Blige</p>
+                                     <p class="user-box__user--date">april 12, 2018</p>
+                                 </div>
+                                 <a href="event.html" class="btn-next">View event &rarr;</a>
+                             </div>  
+                        </div>
+
+                        <div class="events">
+                                <h2 class="events__header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                                 <div class="events__box">
+                                     <img src="img/event-1.jpeg" alt="photo 1" class="events__box--photo">
+                                     <div class="events__box--paragraph">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In arcu cursus euismod quis viverra. Elit sed vulputate mi sit amet mauris commodo quis imperdiet. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Blandit turpis cursus in hac habitasse platea dictumst quisque. Cras semper auctor neque vitae tempus quam pellentesque nec nam. Pellentesque habitant morbi tristique senectus et. Ac tortor dignissim convallis aenean et. 
+                                            Est ante in nibh mauris cursus mattis molestie a iaculis. Imperdiet massa tincidunt nunc pulvinar sapien et.</p>
+                                     </div> 
+                                 </div>
+                                 <div class="user-box">
+                                     <img src="img/user.jpg" alt="user 1" class="user-box__user">
+                                     <div class="user-box__user--details">
+                                         <p class="user-box__user--name">Mary J Blige</p>
+                                         <p class="user-box__user--date">april 12, 2018</p>
+                                     </div>
+                                     <a href="event.html" class="btn-next">View event &rarr;</a>
+                                 </div>  
+                        </div>
+
+                        <div class="events">
+                                    <h2 class="events__header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                                     <div class="events__box">
+                                         <img src="img/event-1.jpeg" alt="photo 1" class="events__box--photo">
+                                         <div class="events__box--paragraph">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In arcu cursus euismod quis viverra. Elit sed vulputate mi sit amet mauris commodo quis imperdiet. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Blandit turpis cursus in hac habitasse platea dictumst quisque. Cras semper auctor neque vitae tempus quam pellentesque nec nam. Pellentesque habitant morbi tristique senectus et. Ac tortor dignissim convallis aenean et. 
+                                                Est ante in nibh mauris cursus mattis molestie a iaculis. Imperdiet massa tincidunt nunc pulvinar sapien et.</p>
+                                         </div> 
+                                     </div>
+                                     <div class="user-box">
+                                         <img src="img/user.jpg" alt="user 1" class="user-box__user">
+                                         <div class="user-box__user--details">
+                                             <p class="user-box__user--name">Mary J Blige</p>
+                                             <p class="user-box__user--date">april 12, 2018</p>
+                                         </div>
+                                         <a href="event.html" class="btn-next">View event &rarr;</a>
+                                     </div>  
+                            </div>
+
+                                <div class="events">
+                                        <h2 class="events__header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                                         <div class="events__box">
+                                             <img src="img/event-1.jpeg" alt="photo 1" class="events__box--photo">
+                                             <div class="events__box--paragraph">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In arcu cursus euismod quis viverra. Elit sed vulputate mi sit amet mauris commodo quis imperdiet. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Blandit turpis cursus in hac habitasse platea dictumst quisque. Cras semper auctor neque vitae tempus quam pellentesque nec nam. Pellentesque habitant morbi tristique senectus et. Ac tortor dignissim convallis aenean et. 
+                                                    Est ante in nibh mauris cursus mattis molestie a iaculis. Imperdiet massa tincidunt nunc pulvinar sapien et.</p>
+                                             </div> 
+                                         </div>
+                                         <div class="user-box">
+                                             <img src="img/user.jpg" alt="user 1" class="user-box__user">
+                                             <div class="user-box__user--details">
+                                                 <p class="user-box__user--name">Mary J Blige</p>
+                                                 <p class="user-box__user--date">april 12, 2018</p>
+                                             </div>
+                                             <a href="event.html" class="btn-next">View event &rarr;</a>
+                                         </div>  
+                                </div>
+                </main>
+            </div>
+
+        </div>
+
+
+        
+    </body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang=eng>
+    <head>
+        <meta charset = 'UTF-8'>
+        <meta name = 'viewport' content = 'width= device-width, initial-scale = 1.0'>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Brighter events  &mdash; create events and send invitation to your friends</title>
+    </head>
+    <body>
+
+        <div class="container-secondary">
+            <h1 class="container-secondary__logo">Be</h1>
+            <!-- <div class="container-secondary__main"> -->
+                <div class="form-login">
+                    <div class="form-switch">
+                        <button class="form-switch__btn--1">Login</button>
+                        <button class="form-switch__btn--2">Create Account</button>
+                    </div>
+                    <form action="#" class="form-login__index" id="log">
+                        <div class="container-secondary__main--header">
+                            <h2 class="heading-seconadry--1">
+                                Welcome to Bright events
+                            </h2>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="text" class="form__input--secondary" placeholder="Full name" id="name" required>
+                            <label for="name" class="form__label">Full name</label>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="email" class="form__input--secondary" placeholder="Email addres" id="email" required>
+                            <label for="email" class="form__label">Email addres</label>
+                        </div>
+
+                        <div class="form__radio-group">
+                            <input type="checkbox" class="form__radio-input" id="large" name="size">
+                            <!-- <label for="large" class="form__radio-label">
+                                <span class="form__radio-button"></span>
+                                <span class="form__radio-group--text">I agree to the terms and conditions of bright events</span>
+                            </label> -->
+                            <button class="btn btn--green">Login &rarr;</button>
+                            <p class="have-account">Don't have an account ? <a href="#reg" class="have-account__login">create</a></p>
+                        </div>
+
+                    </form>
+                    <!---form registration-->
+                    <form action="#" class="form-reg" id="reg">
+
+                        <div class="form-reg__header">
+                            <h2 class="form-reg__header--text">
+                                Create account with Bright events
+                            </h2>
+                        </div>
+
+                        <div class="form-reg__email">
+                            <input type="email" class="form__input--secondary" placeholder="Email addres" id="email" required>
+                            <label for="email" class="form__label">Email addres</label>
+                        </div>
+
+                        <div class="form-group-rivate">
+                            <div class="form-group-rivate__name">
+                                <div class="form-group-rivate__name--1">
+                                    <input type="text" class="form-group-rivate__name--1-sub" placeholder="First Name" id="input-name-1" required>
+                                    <label for="input-name-1" class="form-group-rivate__name--1-label">First Name</label> 
+                                </div>
+
+                                <div class="form-group-rivate__name--2">
+                                    <input type="text" class="form-group-rivate__name--1-sub" placeholder="Last Name" id="input-name-1" required>
+                                    <label for="input-name-1" class="form-group-rivate__name--1-label">Last Name</label> 
+                                </div>
+                            </div>
+                            <div class="form-group-rivate__credentials">
+                                <div class="form-group-rivate__credentials--1">
+                                    <input type="password" class="form-group-rivate__name--1-sub" placeholder="Password" id="input-name-1" required>
+                                    <label for="input-name-1" class="form-group-rivate__name--1-label">Password</label> 
+                                </div>
+    
+                                <div class="form-group-rivate__credentials--2">
+                                    <input type="text" class="form-group-rivate__name--1-sub" placeholder="Confirm password" id="input-name-1" required>
+                                    <label for="input-name-1" class="form-group-rivate__name--1-label">Confirm password</label> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form__radio-group">
+                            <input type="checkbox" class="form__radio-input" id="register" name="size">
+                            <label for="register" class="form__radio-label">
+                                <span class="form__radio-button"></span>
+                                <span class="form__radio-group--text">I agree to the terms and conditions of bright events</span>
+                            </label>
+                            <button class="btn btn--green">Next step &rarr;</button>
+                        </div>
+                        <p class="have-account">Do you have an account ? <a href="#log" class="have-account__login">Login</a></p>
+                    </form>
+                    <!--end of form registration-->
+                </div>
+            <!-- </div> -->
+            <div class="terms">
+                <p class="terms__text">
+                    By clicking "Sign Up Free!" you are agreeing to the Terms, and to receive MeetMe email. You are also agreeing that others will be able to see info you provide on your profile.
+                </p>
+            </div>
+        </div>
+        <div class="footer-secondary">
+            <div class="footer-secondary__blog">
+                <div class="footer-secondary__blog--ling-group">
+                    <a href="#" class="footer-secondary__blog--links">Terms</a> 
+                    <a href="#" class="footer-secondary__blog--links">Privacy</a> 
+                    <a href="#" class="footer-secondary__blog--links">Developer</a> 
+                    <a href="#" class="footer-secondary__blog--links">Contact</a> 
+                    <a href="#" class="footer-secondary__blog--links">About</a> 
+                </div>
+                <div class="copyright">
+                    <p class="copyright__text">
+                        &copy;  All rights reserved.
+                            By Bright events, 2018
+                    </p>
+                </div>
+                <div class="footer-secondary--share__box">
+                    <svg class="event-share__box--icon">
+                        <use xlink:href="img/sprite-share.svg#icon-facebook-with-circle"></use>
+                    </svg>
+                    <svg class="event-share__box--icon">
+                        <use xlink:href="img/sprite-share.svg#icon-google-with-circle"></use>
+                    </svg>
+                    <svg class="event-share__box--icon">
+                        <use xlink:href="img/sprite-share.svg#icon-linkedin-with-circle"></use>
+                    </svg>
+                    <svg class="event-share__box--icon">
+                        <use xlink:href="img/sprite-share.svg#icon-twitter-with-circle"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="container-secondary__members">
+                <img src="img/user.jpg" alt="photo 1" class="container-secondary__members--user">
+                <img src="img/user.jpg" alt="photo 1" class="container-secondary__members--user">
+                <img src="img/user.jpg" alt="photo 1" class="container-secondary__members--user">
+                <img src="img/user.jpg" alt="photo 1" class="container-secondary__members--user">
+                <img src="img/user.jpg" alt="photo 1" class="container-secondary__members--user">
+            </div>
+
+        </div>
+
+       
+    </body>
+</html>

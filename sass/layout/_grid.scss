@@ -1,0 +1,21 @@
+.row {
+    margin:4rem  auto;
+    max-width:140rem;   
+    display: flex;   
+    margin-bottom: 2rem;   
+
+}  
+
+.col-1-of-4 {
+    background-color:#fff;   
+    margin-right: .2rem;
+    flex: 0 0 22%;
+    align-self:flex-start; 
+
+}
+
+.col-3-of-4 {
+    background-color: $color-grey-light-2;    
+    flex:1;  
+}
+     

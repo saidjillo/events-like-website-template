@@ -1,0 +1,25 @@
+//sass/main.scss
+
+@import "abstracts/function";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+@import "components/form";    
+@import "components/textarea";
+
+@import "layout/footer";
+@import "layout/gallery";
+@import "layout/grid";
+@import "layout/header";
+     
+@import "pages/events";
+@import "pages/home"; 
+@import "pages/login"; 
+@import "pages/register";   
+

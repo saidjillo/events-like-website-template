@@ -1,0 +1,14 @@
+{
+  "name": "brighterevents",
+  "version": "1.0.0",
+  "description": "create events",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss  css/style.css -w"
+  },
+  "author": "said umuru jillo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  }
+}

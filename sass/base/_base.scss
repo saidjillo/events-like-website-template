@@ -1,0 +1,28 @@
+// sass/base.scss ; sass partial file
+*,
+*::before,
+*::after {
+ 
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+
+    font-size:  62.5%; //since browser default 16px ; 1rem = 10px => 10px / 16 px == 62.5%; 
+
+}
+
+body {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, $color-primary-light,$color-primary-dark);
+    background-size: cover;
+    background-repeat: no-repeat;      
+    
+    height:100vh;
+}

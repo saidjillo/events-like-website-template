@@ -1,0 +1,25 @@
+///sass/mixins.scss
+
+@mixin flex-vertical-alignment {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@mixin flex-horizontal-alignment {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+@mixin absCenter-forms{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}

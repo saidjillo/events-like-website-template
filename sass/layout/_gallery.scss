@@ -1,0 +1,108 @@
+.gallery {
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    background: linear-gradient(to right,$color-primary-light,$color-primary-dark);  
+    display:flex;
+    flex-direction: column;
+    width:60%; 
+    margin:1rem auto;
+    align-self: center;  
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1.2rem 2.5rem rgba(0,0,0, .45);
+
+    &__item {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;  
+
+        &--help-icon{        
+          width:2.75rem;
+          height:2.75rem;
+          fill: #444;
+          display: inline-block; 
+          
+        }
+
+    }
+
+    .help {
+        font-size: 2.6em;  
+        display: inline-block; 
+        color:#444;
+    }
+
+}  
+
+/////////////////////////////////////////////////////////////
+//////SEARCH ITEMS BY CATEGORY
+.search-category { 
+    width:100%; 
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &__items {
+        
+        padding: .35rem .35rem;
+        width:45%;
+        border-radius: 5px;
+        border:none;
+        color: #444;
+        outline: none;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+
+        &:focus {
+            outline: none;
+            border: 0px;
+        }
+        &--option {
+
+        }
+  
+    }
+
+    &__newer {
+       width:45%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+
+       &--checkbox {
+           display: none;
+       }
+
+       &--checkbox:checked + .toggle-btn::after {
+             transform: translateX(200%);
+       }  
+
+       &--toggle-checkbox {
+           color:#fff;
+           font-weight: 400;
+           font-size: 1.5rem;
+       }
+
+    }
+
+}
+
+.toggle-btn {
+    
+    background-color:$color-primary-light;
+    width:5rem;
+    border-radius: 10px;
+
+    &:after { 
+        content: "";
+        width:1.75rem;
+        height:1.75rem;
+        display: block;
+        border-radius: 50%;
+        background: linear-gradient(to right,$color-primary-light,$color-primary-dark);
+        transition: all .3s;
+    }
+}

@@ -1,0 +1,30 @@
+.form-comments {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:90%;
+    margin: 1.5rem auto;
+    padding: 2rem 1rem;
+     
+}  
+
+.form-login__index {
+ 
+  
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   //@include absCenter-forms;
+   //transform: translateX(-200%);
+
+   transition: all .8s;
+
+   background-color: red;
+   z-index: 10000;
+
+   display: none;
+
+}

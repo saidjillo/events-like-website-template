@@ -1,0 +1,149 @@
+///////FORM SECTION
+.form-reg {
+
+    padding: 1rem; 
+    //@include absCenter-forms;
+  
+    transition: all .8s;
+ 
+   
+
+   
+
+    background-color: teal;
+   
+
+    @include flex-vertical-alignment;
+
+//////FORM HEADER /////
+    &__header {
+
+        &--text {
+
+            color:#666666; 
+            font-size: 2.2rem;
+            margin-top: .4rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+          
+    }   
+////// END HEADER ////
+ 
+    &__email {
+
+        width:60%;
+        margin: 1.2rem auto;
+    }
+    
+
+
+}
+
+.have-account {
+    font-size: 1.6rem;
+
+    &__login {
+        text-decoration: none;
+        color:#0f90ba;
+
+        &:active ,
+        &:visited {
+          color:#0f90ba;
+        }
+
+    }
+}
+
+
+.form-group-rivate {
+    width:80%;
+    @include flex-horizontal-alignment;
+////////////////////////////////////
+////////////// /*----SECTION INPUT NAME ---*/
+    &__name {
+       
+        width:48%;
+
+        &--1 {
+
+            margin-bottom: 3.5rem;
+
+            &-sub {
+              
+                padding: .7rem 2rem;
+                width: 100%;
+                color:inherit;
+                font-family: inherit;
+                background-color: transparent;
+                border: none;
+                border-bottom: 1px solid #0f90ba;
+                height: 3.5rem;
+                display: block;
+                transition: all .2s;
+
+
+                
+                &:focus {
+                    outline: none;
+                    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+                    border-bottom: 3px solid #0f90ba;
+                }
+
+                &:focus:invalid {
+                    border-bottom: 3px solid #ff7730;
+                }
+
+                &::-webkit-input-placeholder {
+                    color: #999;
+                }
+            }
+
+            &-label {
+
+                font-size: 1.6rem;
+                font-weight: 700;
+                margin-left: 2rem;
+                margin-top: .7rem;
+                display: block;
+                transition: all .3s;
+                color:#666666; 
+                transition: all .3s;
+                align-self: flex-start;
+            }
+
+        }
+
+        &--2 {
+            
+        }
+    }
+////////////////////////////////////
+////////////// /*----END SECTION ---*/
+
+////////////////////////////////////
+////////////// /*----SECTION FORM FOR INPUT  PASSWORD ---*/
+    &__credentials {
+
+        width:48%;
+
+        &--1 {
+            margin-bottom: 3.5rem;
+
+        }
+
+        &--2 {
+
+        }
+
+    }
+////////////////////////////////////
+////////////// /*----END SECTION ---*/
+
+}
+
+.form-group-rivate__name--1-sub:placeholder-shown + .form-group-rivate__name--1-label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-3.7rem);
+    }
