@@ -3,5 +3,5 @@
 Feel free to download templates for your own custom use
 
 ## preview
-![app screenshot](https://github.com/saidjillo/Django-northerncorridorapp/blob/master/saidjillo_website_screenshot.png)
+![app screenshot](https://github.com/saidjillo/events-like-website-template/blob/master/event_homepage_screenshot.png)
 
